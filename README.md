@@ -2,6 +2,12 @@
 
 ## Bernardo M. Rocha
 
+Datas das provas:
+- TVC1: 15/04/2019 (Unidades 1,2 e 3)
+- TVC2: 27/05/2019 (Unidades 4 e 5)
+- TVC3: 27/06/2019 (Unidades 6 e 7)
+- 2a Ch. Geral (sem justif.) / Substitutiva: 04/07/2019
+
 Materiais disponíveis:
 
 - Apostila (compilação dos slides em formato texto - sob constante modificação e correções) 

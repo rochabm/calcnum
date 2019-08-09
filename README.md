@@ -1,12 +1,12 @@
-# Cálculo Numérico - UFJF
+# Cálculo Numérico - 2019.3 - Turma X
 
 ## Bernardo M. Rocha
 
 Datas das provas:
-- TVC1: 15/04/2019 (Unidades 1,2 e 3)
-- TVC2: 27/05/2019 (Unidades 4 e 5)
-- TVC3: 27/06/2019 (Unidades 6 e 7)
-- 2a Ch. Geral (sem justif.) / Substitutiva: 04/07/2019
+- TVC1: 13/09/2019 (Unidades 1,2 e 3)
+- TVC2: 01/11/2019 (Unidades 4 e 5)
+- TVC3: 02/12/2019 (Unidades 6 e 7)
+- 2a Ch. Geral (sem justif.) / Substitutiva: 06/12/2019
 
 Materiais disponíveis:
 

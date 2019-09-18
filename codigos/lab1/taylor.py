@@ -1,6 +1,7 @@
 """
 Exemplo de funcao para aproximar exp(x) usando polinomio de Taylor
 Calculo Numerico, Turma X, DCC, UFJF, 2019
+Bernardo M. Rocha
 """
 from math import *
 import numpy as np

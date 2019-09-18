@@ -8,12 +8,18 @@ import matplotlib.pyplot as plt
 from math import factorial
 from math import exp
 
+def cos_taylor(n,x):
+	pass
+
 def exp_taylor(n,x):
     soma = 0.0
     for i in range(n+1):
         termo = x**i / factorial(i)
         soma = soma + termo
-    return soma
+    if(x<0):
+    	return 1.0/soma
+    else:
+        return soma
 
 def exp_taylor2(n,x):
     fat = 1
@@ -28,16 +34,16 @@ def exp_taylor2(n,x):
 if __name__ == "__main__":
 
     # ponto
-    x = 1.0
+    x = -10.0
 
     # valor exato
     ex = exp(x)
 
     # valor aproximado
-    e1 = exp_taylor2(1,x)
-    e2 = exp_taylor2(2,x)
-    e3 = exp_taylor2(3,x)
-    e7 = exp_taylor2(7,x)
+    e1 = exp_taylor(1,x)
+    e2 = exp_taylor(2,x)
+    e3 = exp_taylor(3,x)
+    e7 = exp_taylor(20,x)
     
     print("exp(1)  = %e" % (ex))
     print("taylor1 = %e \t erro = %e" % (e1, abs(e1-ex)))
@@ -47,7 +53,7 @@ if __name__ == "__main__":
     
     # graficos
     xx = np.linspace(-2,2,1000)
-    yy = exp(xx)
+    yy = np.exp(xx)
 
     yy1 = np.zeros(1000)
     for i in range(1000):
@@ -57,6 +63,3 @@ if __name__ == "__main__":
     for i in range(1000):
         yy2[i] = exp_taylor(1,xx[i])
 
-    plt.plot(xx,yy,label="exp(x)")
-    plt.plot(xx,yy1,label="taylor1")
-    plt.show()

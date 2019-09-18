@@ -72,8 +72,7 @@ def falsaposicao(f,a,b,tol=1e-8,maxit=100):
         return None
     xold = b
     for k in range(maxit):
-        fa = f(a), f(b)
-        fb = f(b)
+        fa, fb = f(a), f(b)
         x = (a*fb - b*fa)/(fb-fa)
         if (abs(x-xold) < tol):
             return x
